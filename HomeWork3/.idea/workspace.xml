@@ -86,9 +86,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ChessBoard">
-    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.homeWork.Arrays" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaSprSum2021/srsCode/src/com/hillel/lesson_03" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.FindNumber">
+    <configuration name="ChessBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.homeWork.ChessBoard" />
       <module name="HomeWork3" />
       <extension name="coverage">
         <pattern>
@@ -100,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChessBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.homeWork.ChessBoard" />
+    <configuration name="FindNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.homeWork.tasks.FindNumber" />
       <module name="HomeWork3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.homeWork.*" />
+          <option name="PATTERN" value="com.homeWork.tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +130,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultplyTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.homeWork.MultplyTable" />
-      <module name="HomeWork3" />
+    <configuration name="NumberReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hillel.lesson_03.ex.NumberReverse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.homeWork.*" />
+          <option name="PATTERN" value="com.hillel.lesson_03.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Progression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.homeWork.Progression" />
+    <configuration name="perevorot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.homeWork.tasks.perevorot" />
       <module name="HomeWork3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.homeWork.*" />
+          <option name="PATTERN" value="com.homeWork.tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindNumber" />
+        <item itemvalue="Application.perevorot" />
+        <item itemvalue="Application.NumberReverse" />
         <item itemvalue="Application.ChessBoard" />
         <item itemvalue="Application.InArray" />
-        <item itemvalue="Application.Arrays" />
-        <item itemvalue="Application.MultplyTable" />
-        <item itemvalue="Application.Progression" />
       </list>
     </recent_temporary>
   </component>
