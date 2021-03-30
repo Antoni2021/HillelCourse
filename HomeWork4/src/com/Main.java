@@ -1,38 +1,41 @@
-/*
-      в классе Мейн надо определить и вывести на экран сколько надо долить топлива и его стоимость если маршрут у нас Одесса - Киев
-        + 2 обязательные остановки для дозаправки Кривое Озеро и Жашков
-        + сколько будет стоить полная поездка
-        + остаток топлива в пункте назначения
-        стоимость топлива передавать как аргумент программы + результаты выполнения приложить скриншотом
-*/
 package com;
 
 public class Main {
 
     public static void main(String[] args) {
 
+        int odessaOzero = 180;
+        int ozeroZhashkiv = 153;
+        int zhashkivKiev = 150;
+        
         // initialization car toyota with 30l in the tank
         Car toyota = new Car(40, 30, 9);
-        toyota.fullTank(toyota.tankContent);
+        CarService.fullTank(toyota);
 
         System.out.println();
         System.out.println("riding from Odessa to Krivoye Ozero, 180km");
-        toyota.fullTank(toyota.getTankContent(180));
+        toyota.getTankContent(odessaOzero);
+        CarService.fullTank(toyota);
 
         System.out.println();
         System.out.println("riding from Krivoye Ozero to Zhashkiv, 153km");
-        toyota.fullTank(toyota.getTankContent(153));
+        toyota.getTankContent(ozeroZhashkiv);
+        CarService.fullTank(toyota);
 
         System.out.println();
         System.out.println("riding from Zhashkiv to Kiev, 150km");
-        toyota.getTankContent(150);
+        toyota.getTankContent(zhashkivKiev);
 
 
         System.out.println();
-
-        System.out.println("all inputted fuel for this trip is  " + toyota.getRefueled());
-        System.out.println("for this trip it`s need to spend " + (toyota.getRefueled() * Integer.parseInt(args[0])) +
-                " uah");
+        System.out.println("all inputted fuel for this trip is  " + toyota.getRefueled() + "l ");
+        if (args.length != 0){
+            int cost = Integer.parseInt(args[0]);
+            System.out.println("for this trip it`s need to spend " + (toyota.getRefueled() * cost) + " uah");
+        } else {
+            System.out.println("If the price for gas costs 20 uah, you spend for this trip " +
+                    (toyota.getRefueled() * 20) + " uah");
+        }
 
     }
 

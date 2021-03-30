@@ -5,18 +5,12 @@ public class Car {
     public double tankVolume;
     public double tankContent;
     public double fuelUse;
-    private double refueled;
+    public double refueled;
 
     public Car(int volumeFull, int volumeNow, int use){
         tankVolume = volumeFull;
         tankContent = volumeNow;
         fuelUse = use;
-    }
-
-    public void fullTank(double volume){
-        refueled += tankVolume - volume;
-        System.out.println("Inputting to the tank " + (tankVolume - volume) + " liters");
-        tankContent = tankVolume;
     }
 
     // определить остаток топлива по преодолении N км
@@ -31,7 +25,9 @@ public class Car {
         return kilometers / 100 * fuelUse;
     }
 
-    public double getRefueled() {
+    public double getRefueled(){
         return refueled;
     }
 }
+
+
