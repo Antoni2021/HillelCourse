@@ -10,7 +10,7 @@ public class Main {
         StudentsArr stud = new StudentsArr(s1, s2);
         System.out.println(s1);
         System.out.println(s2);
-//        Selection.faculty(stud, "Internetional Economy");
+        Selection.faculty(stud, "Internetional Economy");
 
     }
 }

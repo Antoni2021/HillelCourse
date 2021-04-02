@@ -9,6 +9,11 @@ public class StudentsArr {
         arr[1] = s2;
     }
 
+    public StudentsArr(int num) {
+        arr = new Student[num];
+    }
+
+
     public Student[] getArr() {
         return arr;
     }
