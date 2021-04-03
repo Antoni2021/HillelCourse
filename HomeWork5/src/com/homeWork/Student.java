@@ -1,21 +1,3 @@
-/*Создать класс, спецификация которого приведена ниже. Определить конструкторы и методы setТип(),
-getТип(), toString(). Определить дополнительно методы в классе, создающем массив объектов
-. Задать критерий выбора данных и вывести эти данные на консоль. В каждом классе, обладающем
- информацией, должно быть объявлено несколько конструкторов.
-
-Student: id, Фамилия, Имя, Отчество, Год рождения, Адрес, Телефон, Факультет, Курс, Группа.
-
-Создать массив объектов.
-
-Вывести:
-
-a) список студентов заданного факультета; - Факульет
-
-b) списки студентов для каждого факультета и курса; - Факультет, Группа
-
-c) список студентов, родившихся после заданного года; - Год рождения
-
-d) список учебной группы. - Группа*/
 package com.homeWork;
 
 public class Student {
@@ -26,7 +8,7 @@ public class Student {
     private String secondName;
     private int birthYear;
     private String address;
-    private int phoneNumber;
+    private String phoneNumber;
     private String faculty;
     private int course;
     private int group;
@@ -42,7 +24,7 @@ public class Student {
     }
 
     public Student(String surname, String name, String secondName, int birthYear, String address,
-                   int phoneNumber, String faculty, int course, int group) {
+                   String phoneNumber, String faculty, int course, int group) {
         this.id = ++count;
         this.surname = surname;
         this.name = name;
@@ -106,11 +88,11 @@ public class Student {
         this.address = address;
     }
 
-    public int getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
