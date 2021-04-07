@@ -1,21 +1,17 @@
-/*
-* Создать интерфейс и его реализацию для выборки данных и вывести эти данные на консоль.
-        a) сведения об абонентах, у которых время внутригородских разговоров превышает заданное;
-        b) сведения об абонентах, которые пользовались междугородной связью;
-        c) сведения об абонентах в алфавитном порядке.
-        д) сведения об первых 10 абонентов у который самый большой трафик интернета
-        * */
-
 package com.homeWork;
 
 public interface Information {
 
-    void longCityCalls();
+    void longerCityCalls(PhonesMass phonesMass, int time);
 
-    void useInterCalls();
+    void useInterCalls(PhonesMass phonesMass);
 
-    void alphabetContacts();
+    void alphabetContacts(PhonesMass phonesMass);
 
-    void biggestInterUsers();
+    void biggestInterUsers(PhonesMass phonesMass) throws CloneNotSupportedException;
+
+    default void call(PhonesMass phonesMass){
+        System.out.println(phonesMass.getArr());
+    }
 
 }

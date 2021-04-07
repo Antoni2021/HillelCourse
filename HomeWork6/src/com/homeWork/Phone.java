@@ -1,6 +1,6 @@
 package com.homeWork;
 
-public class Phone {
+public class Phone implements Cloneable{
 
     private int id;
     private String surname;
@@ -125,6 +125,11 @@ public class Phone {
 
     public void setInternet(int internet) {
         this.internet = internet;
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 
     @Override
