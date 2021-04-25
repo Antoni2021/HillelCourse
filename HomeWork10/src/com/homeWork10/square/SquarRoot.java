@@ -26,14 +26,5 @@ public class SquarRoot {
             answer = "корнями уровнения являются: " + root1 + " и " + root2;
         }
         return answer;
-
     }
-
-    //    6x^2 - 7x + 3 = 0;
-//
-//    d = b^2 - 4ac
-//    x1 = (-b + //D) / 2a
-//    x2 = (-b - //D) / 2a
-//
-
 }

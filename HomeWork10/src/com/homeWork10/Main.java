@@ -1,17 +1,37 @@
-/*1. Напишите метод, который на вход получает коллекцию объектов, а возвращает коллекцию уже без дубликатов.
-2. Написать итератор по коллекции реализованной в ДЗ №8 -
-https://lms.ithillel.ua/groups/5f6a11cca000316423ed5404/homeworks/60748e589276216ed5293337
-3. написать программу для вычисления корней квадратного уравнения
-*/
+/* Напишите метод, который на вход получает коллекцию объектов,
+ * а возвращает коллекцию уже без дубликатов.
+ */
 package com.homeWork10;
 
+import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) {
+        List<String> ans = new LinkedList<>();
+        ans.add("Anton");
+        ans.add("Julia");
+        ans.add("Tung");
+        ans.add("Tung");
+        ans.add("Tung");
+        ans.add("Tung");
+        ans.add("Dasha");
+        ans.add("Rita");
+        ans.add("Vova");
+        ans.add("Vova");
 
-
+        System.out.println(ans);
+        System.out.println(cleanCollection(ans));
+        System.out.println(ans);
     }
 
-
+    public static Collection cleanCollection(Collection collect){
+        Set<Object> sun = new HashSet<>();
+        Iterator iterator = collect.iterator();
+        while (iterator.hasNext()){
+            sun.add(iterator.next());
+        }
+        iterator.remove();
+        return sun;
+    }
 }

@@ -16,8 +16,19 @@ public class Main {
         System.out.println(strCol.delete("name"));
         System.out.println(strCol);
         System.out.println(strCol.get(5));
-        System.out.println(strCol.clear());
+//        System.out.println(strCol.clear());
         System.out.println(strCol);
 
+        System.out.println("-------------");
+        ArrayIterator arrayIterator = new ArrayIterator(strCol);
+        System.out.println(arrayIterator.next());
+        System.out.println(arrayIterator.next());
+        System.out.println(arrayIterator.next());
+        System.out.println(arrayIterator.next());
+        System.out.println(strCol);
+        System.out.println(arrayIterator.next());
+        arrayIterator.remove();
+        System.out.println(strCol);
+        System.out.println(arrayIterator.next());
     }
 }
