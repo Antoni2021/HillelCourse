@@ -1,5 +1,7 @@
 package com.work;
 
+import org.apache.commons.lang3.RandomStringUtils;
+
 import java.util.Arrays;
 
 public class StringCollection implements Collection, Cloneable {
@@ -10,10 +12,14 @@ public class StringCollection implements Collection, Cloneable {
     public StringCollection(int length) {
         this.arr = new String[length];
         this.count = length;
+//for (int i = 0; i < arr.length; i++) {
+//    arr[i] = RandomStringUtils.random(i+1, true, false);
+//}
         for (int i = 0; i < arr.length; i++){
             arr[i] = i + "";
         }
     }
+
 
     @Override
     public boolean add(Object s) {
@@ -127,6 +133,7 @@ public class StringCollection implements Collection, Cloneable {
 
     @Override
     public boolean clear() {
+        if (count == 0) return false;
         for (int i = 0; i < count; i++){
             arr[i] = null;
         }
