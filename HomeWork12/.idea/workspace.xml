@@ -69,7 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStringCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork12" />
       <extension name="coverage">
         <pattern>
@@ -77,14 +77,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringCollectionTest" />
+      <option name="PACKAGE_NAME" value="com.work" />
+      <option name="MAIN_CLASS_NAME" value="com.work.TestStringCollection" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCollectionTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStringCollection.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork12" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +92,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringCollectionTest" />
+      <option name="PACKAGE_NAME" value="com.work" />
+      <option name="MAIN_CLASS_NAME" value="com.work.TestStringCollection" />
       <option name="METHOD_NAME" value="delete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -103,8 +103,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.StringCollectionTest" />
-        <item itemvalue="JUnit.StringCollectionTest.delete" />
+        <item itemvalue="JUnit.TestStringCollection" />
+        <item itemvalue="JUnit.TestStringCollection.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -129,5 +129,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
