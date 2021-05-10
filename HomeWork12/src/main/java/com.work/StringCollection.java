@@ -1,7 +1,5 @@
 package com.work;
 
-//import org.apache.commons.lang3.RandomStringUtils;
-
 import java.util.Arrays;
 
 public class StringCollection implements Collection, Cloneable {
@@ -10,16 +8,14 @@ public class StringCollection implements Collection, Cloneable {
     private int count;
 
     public StringCollection(int length) {
+
         this.arr = new String[length];
         this.count = length;
-//for (int i = 0; i < arr.length; i++) {
-//    arr[i] = RandomStringUtils.random(i+1, true, false);
-//}
+
         for (int i = 0; i < arr.length; i++){
             arr[i] = i + "";
         }
     }
-
 
     @Override
     public boolean add(Object s) {
@@ -31,10 +27,8 @@ public class StringCollection implements Collection, Cloneable {
                 return true;
             }
         }
-        String[] collection = new String[2 * count++];
-        for (int i = 0; i < arr.length; i++){
-            collection[i] = arr[i];
-        }
+        String[] collection = new String[2 * ++count];
+        System.arraycopy(arr, 0, collection, 0, arr.length);
         collection[arr.length] = value;
         arr = collection.clone();
         return true;
@@ -42,7 +36,7 @@ public class StringCollection implements Collection, Cloneable {
 
     @Override
     public boolean add(int index, Object s) {
-        if (count < index){
+        if (count  < index){
             return false;
         }
         String value = s.toString();
@@ -91,10 +85,14 @@ public class StringCollection implements Collection, Cloneable {
 
     @Override
     public String get(int index){
-        if (count <= index) {
-            return "There are no this index in the collection";
+        try {
+            if (count <= index) {
+                throw new IndexOutOfBoundsException();
+            }
+            return arr[index];
+        } catch (IndexOutOfBoundsException E){
+            return ("There is no that index");
         }
-        return arr[index];
     }
 
     @Override
