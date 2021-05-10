@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="com.work.StringCollectionTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="com.work.StringCollectionTest" time="0.021" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2020.3.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -60,11 +60,11 @@
     <property name="java.vendor.version" value="AdoptOpenJDK"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.work.StringCollectionTest" name="testAdd" time="0.003"/>
-  <testcase classname="com.work.StringCollectionTest" name="delete" time="0"/>
-  <testcase classname="com.work.StringCollectionTest" name="add" time="0"/>
-  <testcase classname="com.work.StringCollectionTest" name="get" time="0"/>
-  <testcase classname="com.work.StringCollectionTest" name="size" time="0"/>
-  <testcase classname="com.work.StringCollectionTest" name="clear" time="0.001"/>
-  <testcase classname="com.work.StringCollectionTest" name="contain" time="0"/>
+  <testcase classname="com.work.StringCollectionTest" name="com.work.StringCollectionTest.testContain" time="0.004"/>
+  <testcase classname="com.work.StringCollectionTest" name="com.work.StringCollectionTest.testAddIndex" time="0.008"/>
+  <testcase classname="com.work.StringCollectionTest" name="com.work.StringCollectionTest.testSize" time="0.002"/>
+  <testcase classname="com.work.StringCollectionTest" name="com.work.StringCollectionTest.testAdd" time="0.002"/>
+  <testcase classname="com.work.StringCollectionTest" name="com.work.StringCollectionTest.testDelete" time="0"/>
+  <testcase classname="com.work.StringCollectionTest" name="com.work.StringCollectionTest.testClear" time="0"/>
+  <testcase classname="com.work.StringCollectionTest" name="com.work.StringCollectionTest.testGet" time="0.005"/>
 </testsuite>
