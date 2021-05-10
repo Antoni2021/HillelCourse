@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="com.work.StringCollectionTest" time="0.02" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.work.StreamsTest" time="0.034" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2020.3.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="14.0.2+12"/>
     <property name="sun.boot.library.path" value="C:\Users\user\.jdks\adopt-openjdk-14.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Codding\HillelCourse\HomeWork12"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Codding\HillelCourse\HomeWork13"/>
     <property name="java.vm.vendor" value="AdoptOpenJDK"/>
     <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Codding\HillelCourse\HomeWork12"/>
+    <property name="user.dir" value="D:\Codding\HillelCourse\HomeWork13"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="14.0.2+12"/>
     <property name="os.arch" value="amd64"/>
@@ -60,11 +60,7 @@
     <property name="java.vendor.version" value="AdoptOpenJDK"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.work.StringCollectionTest" name="com.work.StringCollectionTest.testDelete" time="0.002"/>
-  <testcase classname="com.work.StringCollectionTest" name="com.work.StringCollectionTest.testSize" time="0.014"/>
-  <testcase classname="com.work.StringCollectionTest" name="com.work.StringCollectionTest.testAddIndex" time="0"/>
-  <testcase classname="com.work.StringCollectionTest" name="com.work.StringCollectionTest.testClear" time="0.001"/>
-  <testcase classname="com.work.StringCollectionTest" name="com.work.StringCollectionTest.testContain" time="0"/>
-  <testcase classname="com.work.StringCollectionTest" name="com.work.StringCollectionTest.testGet" time="0.003"/>
-  <testcase classname="com.work.StringCollectionTest" name="com.work.StringCollectionTest.testAdd" time="0"/>
+  <testcase classname="com.work.StreamsTest" name="com.work.StreamsTest.testAverage" time="0.013"/>
+  <testcase classname="com.work.StreamsTest" name="com.work.StreamsTest.testFiltred" time="0.002"/>
+  <testcase classname="com.work.StreamsTest" name="com.work.StreamsTest.testMaps" time="0.019"/>
 </testsuite>

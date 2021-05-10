@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cd22c79-8900-4055-9a4d-ad57f7477513" name="Default Changelist" comment="" />
+    <list default="true" id="7f35d5a7-08ac-480d-9d3d-cb2bd3909f45" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +15,13 @@
       <list>
         <option value="Class" />
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1rr01zbzwZSNba8pihN2OBTdjN0" />
+  <component name="ProjectId" id="1sLl4mLeGwnwYGwVfC0O94hbw67" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,37 +31,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Codding\HillelCourse\HomeWork12\src\main\java\com.work" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Codding\HillelCourse\HomeWork12\src\main\java" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.work" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.work" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringCollectionTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.work.Main" />
-      <module name="HomeWork12" />
+  <component name="RunManager" selected="JUnit.StreamsTest">
+    <configuration name="Streams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.work.Streams" />
+      <module name="HomeWork13" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.work.*" />
@@ -73,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HomeWork12" />
+    <configuration name="StreamsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork13" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.work.*" />
@@ -82,60 +68,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.work" />
-      <option name="MAIN_CLASS_NAME" value="com.work.StringCollectionTest" />
+      <option name="MAIN_CLASS_NAME" value="com.work.StreamsTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStringCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HomeWork12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.work" />
-      <option name="MAIN_CLASS_NAME" value="com.work.TestStringCollection" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStringCollection.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HomeWork12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.work" />
-      <option name="MAIN_CLASS_NAME" value="com.work.TestStringCollection" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringCollectionTest" />
-        <item itemvalue="JUnit.TestStringCollection" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TestStringCollection.delete" />
+        <item itemvalue="JUnit.StreamsTest" />
+        <item itemvalue="Application.Streams" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7cd22c79-8900-4055-9a4d-ad57f7477513" name="Default Changelist" comment="" />
-      <created>1619718692201</created>
+      <changelist id="7f35d5a7-08ac-480d-9d3d-cb2bd3909f45" name="Default Changelist" comment="" />
+      <created>1620659564371</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1619718692201</updated>
+      <updated>1620659564371</updated>
     </task>
     <servers />
   </component>
