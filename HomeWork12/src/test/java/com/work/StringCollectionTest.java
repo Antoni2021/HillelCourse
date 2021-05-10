@@ -3,6 +3,7 @@ package com.work;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
+
 public class StringCollectionTest {
 
     @RepeatedTest(100)
