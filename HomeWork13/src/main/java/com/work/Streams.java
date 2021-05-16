@@ -1,10 +1,19 @@
 package com.work;
 
+import javafx.util.Pair;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class Streams {
     public static void main(String[] args) {
+
+
+        Pair<String, String> p1 = new Pair<>("new", "world");
+        System.out.println(p1.getClass());
+        List<String> r1 = Arrays.asList("Mama", "Brother", "java", "simple", "TROUBLE", "world");
+        System.out.println(r1);
+        System.out.println(maps(r1).getClass());
         /*
         List<Integer> integers = List.of(1, 2, 3, 4, 5, 25, 12, 13, 45, 74);
         List<String> strings = List.of("Mama", "Brother", "java", "simple", "TROUBLE", "world");
@@ -44,9 +53,9 @@ public class Streams {
 //                         .collect(Collectors.toMap(s -> s.toLowerCase(Locale.ROOT), s -> s.toUpperCase(Locale.ROOT)));
 //    }
 
-    public static List<String> maps(Collection<String> collection){
+    public static List<Pair<String, String>> maps(Collection<String> collection) {
         return collection.stream()
-                .map(s -> "{" + s.toLowerCase(Locale.ROOT) + ":" + s.toUpperCase(Locale.ROOT) + "}")
+                .map(s -> new Pair<>(s.toLowerCase(Locale.ROOT), s.toUpperCase(Locale.ROOT)))
                 .collect(Collectors.toList());
     }
 
