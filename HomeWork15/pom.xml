@@ -7,8 +7,10 @@
 <groupId>org.work</groupId>
 <artifactId>Lesson15</artifactId>
 <version>1.0</version>
+    <dependencies>
+    </dependencies>
 
-<properties>
+    <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven.compiler.source>14</maven.compiler.source>
