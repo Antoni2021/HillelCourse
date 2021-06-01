@@ -1,0 +1,1 @@
+2 game: Antonio choose PAPER, computer choose SCISSORS: game win the computer

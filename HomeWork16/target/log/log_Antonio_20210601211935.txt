@@ -1,0 +1,1 @@
+1 game: Antonio choose PAPER, computer choose ROCK: game win Antonio
