@@ -49,7 +49,7 @@ public class OutputFile {
             System.out.println(E.getMessage());
         }
 
-        try (FileWriter fw = new FileWriter(fileName)) {
+        try (FileWriter fw = new FileWriter(fileName, true)) {
             fw.write(res);
         } catch (IOException E) {
             System.out.println(E.getMessage());

@@ -1,0 +1,3 @@
+Anton win 0 time(s);
+Anton loose 0 time(s);
+It was 1 draw(s).
