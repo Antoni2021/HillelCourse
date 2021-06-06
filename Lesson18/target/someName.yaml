@@ -1,5 +1,0 @@
-name: Alex Stepurko
-java: true
-age: 35.0
-permission: [READ, WRITE, CREATE]
-identifiers: {phone: '123456', email: alex@info.com}
