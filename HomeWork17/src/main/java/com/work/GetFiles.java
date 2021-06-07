@@ -13,7 +13,11 @@ public class GetFiles {
     public static Path getFolder(){
         Path path = null;
         try {
-            path = Paths.get(Main.class.getProtectionDomain().getCodeSource().getLocation().toURI()).getParent();
+            if (System.getProperty("exec.args") != null){
+                path = Paths.get(System.getProperty("exec.args"));
+        } else {
+                path = Paths.get(Main.class.getProtectionDomain().getCodeSource().getLocation().toURI()).getParent();
+            }
         } catch (Exception E) {
             System.out.println(E.getMessage());
         }
