@@ -23,7 +23,7 @@ public class GetFiles {
     public static List<File> getFiles(){
         List<File> filesInFolder = null;
         try {
-            filesInFolder = Files.walk(getFolder())
+            filesInFolder = Files.walk(getFolder(), 1)
                 .filter(Files::isRegularFile)
                 .map(Path::toFile)
                 .collect(Collectors.toList());

@@ -52,4 +52,16 @@ public class Transformation {
         }
         file.delete();
     }
+
+    public static void transformationRun(){
+        GetFiles.getFiles().forEach(s -> {
+            if (s.toString().endsWith(".json")){
+                fromJson(s);
+                System.out.println(s + " ready");
+            } else if (s.toString().endsWith(".yaml")){
+                fromYaml(s);
+                System.out.println(s + " ready");
+            }
+        });
+    }
 }
