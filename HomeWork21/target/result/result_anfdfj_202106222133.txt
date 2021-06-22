@@ -1,0 +1,3 @@
+anfdfj win 0 time(s);
+anfdfj loose 2 time(s);
+It was 0 draw(s).

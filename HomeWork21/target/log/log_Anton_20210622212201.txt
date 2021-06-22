@@ -1,0 +1,1 @@
+3 game: Anton choose ROCK, computer choose PAPER: game win the computer

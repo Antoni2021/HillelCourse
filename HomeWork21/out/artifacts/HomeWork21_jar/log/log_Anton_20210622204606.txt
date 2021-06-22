@@ -1,0 +1,2 @@
+4 game: Anton choose ROCK, computer choose PAPER: game win the computer
+5 game: Anton choose ROCK, computer choose ROCK: draw

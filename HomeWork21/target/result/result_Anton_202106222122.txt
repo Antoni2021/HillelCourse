@@ -1,0 +1,5 @@
+Anton win 1 time(s);
+Anton loose 1 time(s);
+It was 1 draw(s).Anton win 2 time(s);
+Anton loose 0 time(s);
+It was 1 draw(s).
