@@ -1,0 +1,3 @@
+Asfgh win 0 time(s);
+Asfgh loose 2 time(s);
+It was 0 draw(s).

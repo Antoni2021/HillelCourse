@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class OutputFile {
-
+/*
     public static void logToFile(String res) {
         Path base = getFolder();
         String dirName = base + File.separator + "log";
@@ -71,4 +71,5 @@ public class OutputFile {
         }
         return path;
     }
+*/
 }

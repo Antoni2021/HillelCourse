@@ -1,0 +1,3 @@
+AGdfg win 0 time(s);
+AGdfg loose 0 time(s);
+It was 0 draw(s).

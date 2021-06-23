@@ -1,0 +1,1 @@
+3 game: Antonio choose ROCK, computer choose ROCK: draw

@@ -1,0 +1,1 @@
+2 game: Antonio choose ROCK, computer choose SCISSORS: game win Antonio

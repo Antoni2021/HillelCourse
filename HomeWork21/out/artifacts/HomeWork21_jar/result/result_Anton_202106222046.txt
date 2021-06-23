@@ -1,3 +1,0 @@
-Anton win 0 time(s);
-Anton loose 5 time(s);
-It was 5 draw(s).

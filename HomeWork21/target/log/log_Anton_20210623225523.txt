@@ -1,0 +1,1 @@
+5 game: Anton choose PAPER, computer choose SCISSORS: game win the computer
