@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ResourceBundleManager">
-    <file url="file://$PROJECT_DIR$/src/main/MessagesBundle/Hand.properties" />
-    <file url="file://$PROJECT_DIR$/src/main/MessagesBundle/Hand_RU.properties" />
-    <file url="file://$PROJECT_DIR$/src/main/MessagesBundle/Hand_UA.properties" />
-    <file url="file://$PROJECT_DIR$/src/main/MessagesBundle/Hand_US.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/Hand.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/Hand_ru.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/infoMessages.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/infoMessages_ru.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/infoMessages_ua.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/infoMessages_us.properties" />
+    <file url="file://$PROJECT_DIR$/src/src/main/MessagesBundle/Hand.properties" />
+    <file url="file://$PROJECT_DIR$/src/src/main/MessagesBundle/Hand_RU.properties" />
+    <file url="file://$PROJECT_DIR$/src/src/main/MessagesBundle/Hand_UA.properties" />
+    <file url="file://$PROJECT_DIR$/src/src/main/MessagesBundle/Hand_US.properties" />
     <custom-resource-bundle>
-      <file value="file://$PROJECT_DIR$/src/main/MessagesBundle/Hand.properties" />
-      <file value="file://$PROJECT_DIR$/src/main/MessagesBundle/Hand_RU.properties" />
-      <file value="file://$PROJECT_DIR$/src/main/MessagesBundle/Hand_UA.properties" />
-      <file value="file://$PROJECT_DIR$/src/main/MessagesBundle/Hand_US.properties" />
+      <file value="file://$PROJECT_DIR$/src/src/main/MessagesBundle/Hand.properties" />
+      <file value="file://$PROJECT_DIR$/src/src/main/MessagesBundle/Hand_RU.properties" />
+      <file value="file://$PROJECT_DIR$/src/src/main/MessagesBundle/Hand_UA.properties" />
+      <file value="file://$PROJECT_DIR$/src/src/main/MessagesBundle/Hand_US.properties" />
       <base-name>Hand</base-name>
+    </custom-resource-bundle>
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/resources/Hand.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Hand_ru.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Hand_ua.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/Hand_us.properties" />
+      <base-name>Hand</base-name>
+    </custom-resource-bundle>
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/resources/infoMessages.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/infoMessages_ru.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/infoMessages_ua.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/infoMessages_us.properties" />
+      <base-name>infoMessages</base-name>
     </custom-resource-bundle>
   </component>
 </project>

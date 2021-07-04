@@ -1,13 +1,13 @@
 package com.work;
 
-import java.util.Arrays;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class GameService {
+    private static Locale loc = new Locale("us");
+    private static ResourceBundle resource = ResourceBundle.getBundle("infoMessages", loc);
 
     public static int getNumber(){
-        Log.loggerTrace.info("Please, enter the number of games:");
+        Log.loggerTrace.info(Game.info.getString("gamesNumber"));
         Scanner sc = new Scanner(System.in);
         String in = sc.nextLine().trim();
         int num = 0;
@@ -16,14 +16,14 @@ public class GameService {
             Log.loggerDebug.info(Game.name + " choose " + in + " games");
         } catch (NumberFormatException E) {
             Log.loggerWarn.warn(Game.name + " enter not a number, when choose a number of games");
-            Log.loggerTrace.info("There is no number, try again ");
+            Log.loggerTrace.info(Game.info.getString("noNumber"));
             num = getNumber();
         }
         return num;
     }
 
     public static int getHand(){
-        Log.loggerTrace.info("Please, enter '0' - rock, '1' - paper, '2' - scissors");
+        Log.loggerTrace.info(Game.info.getString("enterHand"));
         Scanner sc = new Scanner(System.in);
         String in = sc.nextLine().trim();
         if (in.equals("q")){
@@ -36,11 +36,11 @@ public class GameService {
             hand = Integer.parseInt(in);
         } catch (NumberFormatException E) {
             Log.loggerWarn.warn(Game.name + " enter not a number, when choose a hand");
-            Log.loggerTrace.info("There is not the number, try again ");
+            Log.loggerTrace.info(Game.info.getString("noNumber"));
             hand = getHand();
         }
         if (hand > 2){
-            Log.loggerTrace.info("There is no that hand, try again");
+            Log.loggerTrace.info(Game.info.getString("wrongHand"));
             Log.loggerWarn.warn(Game.name + " choose unreal hand");
             hand = getHand();
         }
@@ -51,25 +51,43 @@ public class GameService {
         String str = "";
         switch (res) {
             case -1 -> {
-                str = "game win the computer";
+                str = Game.info.getString("res0");
                 Game.loses++;
             }
             case 1 -> {
-                str = "game win " + Game.name;
+                str = Game.info.getString("res1") + " " + Game.name;
                 Game.wins++;
             }
             case 0 -> {
-                str = "draw";
+                str = Game.info.getString("res2");
                 Game.draws++;
             }
         }
         return str;
     }
 
+    public static String logResults(int res) {
+        String str = "";
+        switch (res) {
+            case -1 -> {
+                str = resource.getString("res0");
+            }
+            case 1 -> {
+                str = resource.getString("res1") + " " + Game.name;
+            }
+            case 0 -> {
+                str = resource.getString("res2");
+            }
+        }
+        return str;
+    }
+
     public static void resultOfGame(){
-        Game.res = Game.name + " win " + Game.wins + " time(s);\n" + Game.name + " loose " + Game.loses +
-                " time(s);\nIt was " + Game.draws + " draw(s).";
-        Log.loggerTrace.info("\n" + Game.res);
+        Game.res = String.format("%s win %d times; \n%s loose %d times; \nIt was %d draw(s)", Game.name, Game.wins,
+                Game.name, Game.loses, Game.draws);
+        String s = String.format(Game.info.getString("resultsOfGames"), Game.name, Game.wins,
+                Game.name, Game.loses, Game.draws);
+        Log.loggerTrace.info("\n" + s);
         Log.loggerResults.info("\n" + Game.res);
         Log.loggerDebug.debug("\n" + Game.name + " choose " + Game.countOfRounds + " games,\n" +
                 " played " + Game.count + " games, \n" +
@@ -77,17 +95,21 @@ public class GameService {
         Log.loggerDebug.debug("Game finished");
     }
 
-    public static void resultChoosing(){
+    public static void resultChoosing() {
         int randomElement = Arrays.asList(0, 1, 2).get(new Random().nextInt(3));
         int handNum = getHand();
         Hand player = Hand.values()[handNum];
         Hand computer = Hand.values()[randomElement];
-        String oneGameResult = Game.name + " choose " + player.getTitle() +
-                ", computer choose " + computer.getTitle() +
-                ": " + chooseResults(Game.result[handNum][randomElement]);
-        Log.loggerTrace.info(oneGameResult);
-        Log.loggerInfo.info(oneGameResult);
-        Game.results.put(Game.count++, oneGameResult);
+        int result = Game.result[handNum][randomElement];
+        String res = chooseResults(result);
+        String logResult = String.format("%s choose %s, computer chose %s: %s", Game.name,
+                resource.getString(player.getTitle()),
+                resource.getString(computer.getTitle()), logResults(result));
+        String oneGameResults = String.format(Game.info.getString("chooses"), Game.name,
+                Game.hand.getString(player.getTitle()),
+                Game.hand.getString(computer.getTitle()), res);
+        Log.loggerTrace.info(oneGameResults);
+        Log.loggerInfo.info(logResult);
+        Game.results.put(Game.count++, logResult);
     }
-
 }

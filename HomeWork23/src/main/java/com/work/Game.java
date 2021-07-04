@@ -19,16 +19,19 @@ public class Game {
     static int[][] result = {{0, -1, 1}, {1, 0, -1}, {-1, 1, 0}};
     static String res;
 
+    static ResourceBundle info = ResourceBundle.getBundle("infoMessages");
+    static ResourceBundle hand = ResourceBundle.getBundle("Hand");
+
     public static void start() {
 
         Scanner sc = new Scanner(System.in);
         Log.loggerDebug.debug("Game started");
-        Log.loggerTrace.info("Let`s start the game!");
-        Log.loggerTrace.info("Please, enter your name:");
+        Log.loggerTrace.info(info.getString("gameStart"));
+        Log.loggerTrace.info(info.getString("name"));
         name = sc.next();
         int countOfGames = GameService.getNumber();
         countOfRounds = countOfGames;
-        Log.loggerTrace.info("If you want exit the game, you always can enter 'q'");
+        Log.loggerTrace.info(info.getString("exit"));
         while (countOfGames-- != 0) {
             GameService.resultChoosing();
         }

@@ -1,9 +1,10 @@
 package com.work;
 
 public enum Hand {
-    ROCK("Rock"),
-    PAPER("Paper"),
-    SCISSORS("Scissors"),;
+
+    ROCK("rock"),
+    PAPER("paper"),
+    SCISSORS("scissors");
 
     private String title;
 
@@ -14,5 +15,4 @@ public enum Hand {
     public String getTitle() {
         return title;
     }
-
 }

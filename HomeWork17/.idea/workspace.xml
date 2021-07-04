@@ -9,7 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62006a16-67b1-4aa7-a4e1-459c7f73d2a9" name="Default Changelist" comment="" />
+    <list default="true" id="62006a16-67b1-4aa7-a4e1-459c7f73d2a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/infoMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/infoMessages_ru.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/infoMessages_ua.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/infoMessages_us.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork23/.idea/resourceBundles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/.idea/resourceBundles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/MessagesBundle/Hand.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/Hand.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/MessagesBundle/Hand_RU.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/Hand_ru.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/MessagesBundle/Hand_UA.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/Hand_ua.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/MessagesBundle/Hand_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/Hand_us.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +58,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -87,8 +104,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622657835230</updated>
+      <workItem from="1625429509575" duration="1141000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
