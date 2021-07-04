@@ -1,5 +1,7 @@
 package com.work;
 
+import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 public class GameService {
@@ -73,6 +75,19 @@ public class GameService {
                 " played " + Game.count + " games, \n" +
                 "not finished " + (Game.countOfRounds - Game.count) + " games");
         Log.loggerDebug.debug("Game finished");
+    }
+
+    public static void resultChoosing(){
+        int randomElement = Arrays.asList(0, 1, 2).get(new Random().nextInt(3));
+        int handNum = getHand();
+        Hand player = Hand.values()[handNum];
+        Hand computer = Hand.values()[randomElement];
+        String oneGameResult = Game.name + " choose " + player.getTitle() +
+                ", computer choose " + computer.getTitle() +
+                ": " + chooseResults(Game.result[handNum][randomElement]);
+        Log.loggerTrace.info(oneGameResult);
+        Log.loggerInfo.info(oneGameResult);
+        Game.results.put(Game.count++, oneGameResult);
     }
 
 }

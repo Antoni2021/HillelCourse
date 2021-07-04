@@ -1,14 +1,18 @@
 package com.work;
 
-import java.util.HashMap;
-import java.util.Map;
+public enum Hand {
+    ROCK("Rock"),
+    PAPER("Paper"),
+    SCISSORS("Scissors"),;
 
-public class Hand {
+    private String title;
 
-    public static final Map<Integer, String> hand = new HashMap<>();
-    static {
-        hand.put(0, "ROCK");
-        hand.put(1, "PAPER");
-        hand.put(2, "SCISSORS");
+    Hand(String title) {
+        this.title = title;
     }
+
+    public String getTitle() {
+        return title;
+    }
+
 }

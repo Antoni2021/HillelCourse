@@ -1,6 +1,5 @@
 package com.work;
 
-
 import java.util.*;
 /*
                   ROCK (0),  PAPER(1),   SCISSORS(2)
@@ -31,13 +30,7 @@ public class Game {
         countOfRounds = countOfGames;
         Log.loggerTrace.info("If you want exit the game, you always can enter 'q'");
         while (countOfGames-- != 0) {
-            int randomElement = Arrays.asList(0, 1, 2).get(new Random().nextInt(3));
-            int handNum = GameService.getHand();
-            String oneGameResult = name + " choose " + Hand.hand.get(handNum) + ", computer choose " +
-                    Hand.hand.get(randomElement) + ": " + GameService.chooseResults(result[handNum][randomElement]);
-            Log.loggerTrace.info(oneGameResult);
-            Log.loggerInfo.info(oneGameResult);
-            results.put(count++, oneGameResult);
+            GameService.resultChoosing();
         }
         GameService.resultOfGame();
     }
