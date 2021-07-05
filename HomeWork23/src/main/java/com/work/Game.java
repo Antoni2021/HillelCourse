@@ -20,7 +20,6 @@ public class Game {
     static String res;
 
     static ResourceBundle info = ResourceBundle.getBundle("infoMessages");
-    static ResourceBundle hand = ResourceBundle.getBundle("Hand");
 
     public static void start() {
 

@@ -3,8 +3,10 @@ package com.work;
 import java.util.*;
 
 public class GameService {
-    private static Locale loc = new Locale("us");
-    private static ResourceBundle resource = ResourceBundle.getBundle("infoMessages", loc);
+    private static final Locale loc = new Locale("us");
+    private static final ResourceBundle resource = ResourceBundle.getBundle("infoMessages", loc);
+    private static final ResourceBundle logHand = ResourceBundle.getBundle("Hand", loc);
+    private static final ResourceBundle hand = ResourceBundle.getBundle("Hand");
 
     public static int getNumber(){
         Log.loggerTrace.info(Game.info.getString("gamesNumber"));
@@ -69,15 +71,9 @@ public class GameService {
     public static String logResults(int res) {
         String str = "";
         switch (res) {
-            case -1 -> {
-                str = resource.getString("res0");
-            }
-            case 1 -> {
-                str = resource.getString("res1") + " " + Game.name;
-            }
-            case 0 -> {
-                str = resource.getString("res2");
-            }
+            case -1 -> str = resource.getString("res0");
+            case 1 -> str = resource.getString("res1") + " " + Game.name;
+            case 0 -> str = resource.getString("res2");
         }
         return str;
     }
@@ -103,11 +99,11 @@ public class GameService {
         int result = Game.result[handNum][randomElement];
         String res = chooseResults(result);
         String logResult = String.format("%s choose %s, computer chose %s: %s", Game.name,
-                resource.getString(player.getTitle()),
-                resource.getString(computer.getTitle()), logResults(result));
+                logHand.getString(player.getTitle()),
+                logHand.getString(computer.getTitle()), logResults(result));
         String oneGameResults = String.format(Game.info.getString("chooses"), Game.name,
-                Game.hand.getString(player.getTitle()),
-                Game.hand.getString(computer.getTitle()), res);
+                hand.getString(player.getTitle()),
+                hand.getString(computer.getTitle()), res);
         Log.loggerTrace.info(oneGameResults);
         Log.loggerInfo.info(logResult);
         Game.results.put(Game.count++, logResult);
