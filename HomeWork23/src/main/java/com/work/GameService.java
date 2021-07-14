@@ -3,7 +3,7 @@ package com.work;
 import java.util.*;
 
 public class GameService {
-    private static final Locale loc = new Locale("us");
+    private static final Locale loc = new Locale("en");
     private static final ResourceBundle resource = ResourceBundle.getBundle("infoMessages", loc);
     private static final ResourceBundle logHand = ResourceBundle.getBundle("Hand", loc);
     private static final ResourceBundle hand = ResourceBundle.getBundle("Hand");
@@ -101,6 +101,7 @@ public class GameService {
         String logResult = String.format("%s choose %s, computer chose %s: %s", Game.name,
                 logHand.getString(player.getTitle()),
                 logHand.getString(computer.getTitle()), logResults(result));
+        System.out.println(hand.getString(player.getTitle()));
         String oneGameResults = String.format(Game.info.getString("chooses"), Game.name,
                 hand.getString(player.getTitle()),
                 hand.getString(computer.getTitle()), res);

@@ -1,0 +1,13 @@
+2021-07-05 02:38:18,579 [INFO ] [main          ] - anton choose Rock, computer chose Paper: game win the computer
+2021-07-05 02:38:19,488 [INFO ] [main          ] - anton choose Paper, computer chose Scissors: game win the computer
+2021-07-05 02:38:21,332 [INFO ] [main          ] - anton choose Rock, computer chose Rock: draw
+2021-07-05 19:00:58,590 [INFO ] [main          ] - asdfn choose Paper, computer chose Scissors: game win the computer
+2021-07-05 19:00:59,551 [INFO ] [main          ] - asdfn choose Paper, computer chose Paper: draw
+2021-07-05 19:01:00,018 [INFO ] [main          ] - asdfn choose Paper, computer chose Paper: draw
+2021-07-05 19:01:00,394 [INFO ] [main          ] - asdfn choose Paper, computer chose Scissors: game win the computer
+2021-07-05 19:01:00,749 [INFO ] [main          ] - asdfn choose Paper, computer chose Rock: game win asdfn
+2021-07-05 19:01:01,085 [INFO ] [main          ] - asdfn choose Paper, computer chose Rock: game win asdfn
+2021-07-05 19:01:02,143 [INFO ] [main          ] - asdfn choose Paper, computer chose Scissors: game win the computer
+2021-07-05 19:01:02,562 [INFO ] [main          ] - asdfn choose Paper, computer chose Rock: game win asdfn
+2021-07-05 22:22:09,275 [INFO ] [main          ] - Anton choose Paper, computer chose Paper: draw
+2021-07-05 22:22:35,249 [INFO ] [main          ] - фапр choose Paper, computer chose Paper: draw

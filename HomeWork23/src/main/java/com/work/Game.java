@@ -23,6 +23,7 @@ public class Game {
 
     public static void start() {
 
+        Log.loggerTrace.info("Hi! If you want choose some language, please enter as argument of app: us, ua or ru");
         Scanner sc = new Scanner(System.in);
         Log.loggerDebug.debug("Game started");
         Log.loggerTrace.info(info.getString("gameStart"));
