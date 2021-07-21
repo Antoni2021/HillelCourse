@@ -1,0 +1,60 @@
+@options
+@argfile
+-classpath
+'C:/Users/user/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar;C:/Users/user/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar;C:/Users/user/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar'
+-encoding
+'Cp1251'
+-protected
+-source
+'11'
+-sourcepath
+'D:/Codding/HillelCourse/HomeWork25_Cache/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'D:/Codding/HillelCourse/HomeWork25_Cache/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'HomeWork25_Cache 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'D:/Codding/HillelCourse/HomeWork25_Cache/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'HomeWork25_Cache 1.0-SNAPSHOT API'
+'D:/Codding/HillelCourse/HomeWork25_Cache/src/main/java/Cache.java'
+'D:/Codding/HillelCourse/HomeWork25_Cache/src/main/java/CacheWork.java'
+'D:/Codding/HillelCourse/HomeWork25_Cache/src/main/java/Log.java'
+C:\Users\user\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar = 1624379766456
+C:\Users\user\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar = 1624379766583
+C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar = 1624379765971
+D:\Codding\HillelCourse\HomeWork25_Cache\src\main\java\Cache.java = 1626910758480
+D:\Codding\HillelCourse\HomeWork25_Cache\src\main\java\CacheWork.java = 1626910905839
+D:\Codding\HillelCourse\HomeWork25_Cache\src\main\java\Log.java = 1626910758502
+D:\Codding\HillelCourse\HomeWork25_Cache\src\main\java = 1626910905840
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\allclasses-index.html = 1626910939084
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\allpackages-index.html = 1626910939088
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\Cache.html = 1626910938938
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\CacheWork.html = 1626910938983
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\element-list = 1626910939007
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\help-doc.html = 1626910939120
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\index-all.html = 1626910939111
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\index.html = 1626910939114
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\jquery-ui.overrides.css = 1626910939170
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\Log.html = 1626910939003
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\member-search-index.js = 1626910939094
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\module-search-index.js = 1626910939090
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\overview-tree.html = 1626910939062
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\package-search-index.js = 1626910939092
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\package-summary.html = 1626910939015
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\package-tree.html = 1626910939024
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\package-use.html = 1626910939057
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\script.js = 1626910939129
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\search.js = 1626910939136
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\stylesheet.css = 1626910939126
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\tag-search-index.js = 1626910939096
+D:\Codding\HillelCourse\HomeWork25_Cache\target\site\apidocs\type-search-index.js = 1626910939093
