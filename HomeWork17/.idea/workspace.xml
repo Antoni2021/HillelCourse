@@ -10,20 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62006a16-67b1-4aa7-a4e1-459c7f73d2a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/infoMessages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/infoMessages_ru.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/infoMessages_ua.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/infoMessages_us.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork23/.idea/resourceBundles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/.idea/resourceBundles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/MessagesBundle/Hand.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/Hand.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/MessagesBundle/Hand_RU.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/Hand_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/MessagesBundle/Hand_UA.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/Hand_ua.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/MessagesBundle/Hand_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/resources/Hand_us.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/GameService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/Hand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork23/src/main/java/com/work/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +77,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -105,6 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622657835230</updated>
       <workItem from="1625429509575" duration="1141000" />
+      <workItem from="1627209898895" duration="2153000" />
     </task>
     <servers />
   </component>
